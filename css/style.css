@@ -1,0 +1,186 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .header_content__wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu_wrapper {
+    display: flex;
+  }
+  
+  .menu_link__wrapper:not(:last-child) {
+    padding-right: 15px;
+  }
+  
+
+  .menu_link {
+    text-decoration: none;
+    color: #6c6c6c;
+    display: inline-block;
+    padding: 31px 0;
+    border-bottom: 4px solid transparent;
+  }
+  
+  .menu_link:hover {
+      transition: .3s;
+      border-color: #5094f2;
+  }
+  
+  .main_content__wrapper {
+    background-image: url("../images/iphone_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0 20px;
+  }
+
+
+
+  .phone_content__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .phone_img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .phone_img,
+  .phone_content {
+    width: 50%;
+  }
+  
+  
+  .phone_content {
+    color: #ffffff;
+    padding-left: 40px;
+  }
+  
+  .phone_text_wrapper__title {
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 50px;
+  }
+  .phone_text_wrapper__text {
+    font-size: 23px;
+    line-height: 50px;
+  }
+  
+  
+  .button {
+    padding: 5px 10px 5px 35px;
+    background: #5094f2;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    width: 175px;
+  }
+  
+  .button:hover {
+    border-radius: 50px;
+    transition: 0.3s;
+    background: #333
+  }
+
+  .button_img {
+    padding-right: 5px;
+  }
+
+  .about_us_image {
+    width: 140px;;
+  } 
+
+
+  .about_us{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+   .about_us .about_us__block{
+    width: calc(100%/3);
+  }
+
+.about_us__content{
+    text-align: center;
+  }
+
+.about_us__title {
+  color: #5094f2;;
+}
+.about_us__block .about_us_block__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.about_us__content .about_us__title {
+  font-size: 21px;
+}
+.about_us__content .about_us__text{
+  font-size: 14px;
+}
+
+.cart_and_text .cart_and_text__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+
+
+.cart_title{
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.cart_and_text__wrapper .cart img{
+  height: 308px;
+  width: 380px;
+}
+
+.cart_and_text__wrapper .cart_description .cart_description__title{
+  font-size: 25px;
+  color: #596979;
+}
+
+.cart_and_text__wrapper .cart_description .cart_description__text{
+  font-size: 15px;
+  color: #596979;
+  line-height: 38px;
+}
+
+.cart_and_text .cart_description{
+  width: 50%;
+}
+.cart_and_text .cart{
+  width: 50%;
+}
+
+.footer {
+  color: #596979;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
